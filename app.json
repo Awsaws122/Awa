@@ -1,0 +1,39 @@
+{
+    "name": "تيم Aws",
+    "description": " يا هلا باوس صيد يوزرات!",
+    "stack": "container",
+    "repository": "https://github.com/Awsaws122/Awa",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/Awsaws122/Awa",
+    "env": {
+        "APP_ID": {
+            "description": "ا يبي ايدي ضلع",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش ضلع",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس ضلع خلي هنا",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
