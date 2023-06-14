@@ -89,3 +89,11 @@ setup:
        dockerfile: Dockerfile
        target: builder
     web: Dockerfile
+heroku update beta
+heroku plugins:install @heroku-cli/plugin-
+heroku update stable
+heroku plugins:remove manifest
+heroku create your-app-name --manifest
+git add heroku.yml
+git commit -m "Added heroku.yml"
+git push heroku master
