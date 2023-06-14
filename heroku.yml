@@ -7,3 +7,7 @@ build:
 run:
 
   web: bundle exec puma -C config
+git add heroku.yml
+
+git commit -m "Add heroku.yml"
+
