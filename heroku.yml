@@ -76,4 +76,10 @@ setup:
     web: Dockerfile
 
     worker: worker/Dockerfile
+    build:
+  docker:
+    release:
+       dockerfile: Dockerfile
+       target: builder
+    web: Dockerfile
     
