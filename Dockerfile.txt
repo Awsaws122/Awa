@@ -8,3 +8,13 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 CMD [ "python3", "sython.py"]
+ARG RAILS_ENV=production
+
+ARG FOO
+FROM heroku/heroku:22-build AS builder
+
+...
+
+FROM heroku/heroku:22 AS production
+
+...
